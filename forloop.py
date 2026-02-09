@@ -12,7 +12,7 @@ for i in range(1,100,4):
 credit_card1='1234-5678-012-3456'
 credit_card=[1234,5678,9012,3456]
 for i in credit_card1:
-    for i in credit_card:
-      print(i)
-    print(i)
+    for j in credit_card:
+      print(i,end='_')
+    print(j,end=' Rusanganwa\n')
     
