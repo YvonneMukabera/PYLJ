@@ -19,6 +19,14 @@ for x in fruits:
      print(x,end=' and ')
     else:
         print(x,end=",")
-
+print('')
+print(f'we removed this element from our list: {fruits[0]}')
+fruits.remove(fruits[0])
+print('updated list is:', end=' ')
+for x in fruits:
+    if (x== "Coconut"):
+     print(x,end=' and ')
+    else:
+        print(x,end=",")
 
 
