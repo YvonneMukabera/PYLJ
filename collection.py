@@ -3,5 +3,6 @@
 # set = {} unordered and immutable, but add/remove ok, no duplicates
 # tuple = () ordered and unchangeable, duplicates ok, faster
 
-fruit = ['Apple','Orange', 'Banana']
-print(fruit)
+fruits = ['Apple','Orange', 'Banana']
+print(fruits)
+
