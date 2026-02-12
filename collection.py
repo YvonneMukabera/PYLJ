@@ -8,10 +8,14 @@ fruits = ['Apple','Orange', 'Banana']
 print(f"we have {len(fruits)} fruits ",end=' ')
 #print(f"the second fruit is {fruits[1]}")
 print("which are:",end=" ")
-#updating our fruit list
+#changing our fruit indexed two our fruit list
 fruits[2]="Coconut"
+print(f"our last fruit was changed to:{fruits[2]}")
+#adding new fruit
+fruits.append('Banana')
+print(f'the new fruit added is:{fruits[3]}')
 for x in fruits:
-    if (x== "Orange"):
+    if (x== "Coconut"):
      print(x,end=' and ')
     else:
         print(x,end=",")
