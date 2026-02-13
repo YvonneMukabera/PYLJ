@@ -44,3 +44,12 @@ for x in fruits:
      #print(x,end=' and ')
     #else:
         print(x,end=",")
+        
+print('let us reverse our list')
+fruits.reverse()
+print('our reversed list is:', end=' ')
+for x in fruits:    
+    #if (x== "Coconut"):
+     #print(x,end=' and ')
+    #else:
+        print(x,end=",")
