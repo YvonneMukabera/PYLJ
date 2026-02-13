@@ -28,5 +28,12 @@ for x in fruits:
      print(x,end=' and ')
     else:
         print(x,end=",")
-
-
+print('let us insert a new fruit at index 1')       
+fruits.insert(1,"Grapes")
+print('updated list is:', end=' ')
+for x in fruits:
+    if (x== "Coconut"):
+     print(x,end=' and ')
+    else:
+        print(x,end=",")
+print('')
