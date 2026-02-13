@@ -53,3 +53,7 @@ for x in fruits:
      #print(x,end=' and ')
     #else:
         print(x,end=",")
+print('let us clear our list')
+fruits.clear()   
+print('our cleared list is:', end=' ')
+print(fruits)                               
