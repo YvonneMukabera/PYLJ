@@ -36,4 +36,11 @@ for x in fruits:
      print(x,end=' and ')
     else:
         print(x,end=",")
-print('')
+print('sorting our list in alphabetical order')
+fruits.sort()
+print('our sorted list is:', end=' ')
+for x in fruits:
+    #if (x== "Coconut"):
+     #print(x,end=' and ')
+    #else:
+        print(x,end=",")
