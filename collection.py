@@ -13,6 +13,8 @@ fruits[2]="Coconut"
 print(f"our last fruit was changed to:{fruits[2]}")
 #retuen the index of the first element with the specified value
 print(f"the index of the first element with the specified value is: {fruits.index('Coconut')}")
+#counting the number of times a specified value appears in the list
+print(f"the number of times a specified value appears in the list is: {fruits.count('Coconut')}")
 #adding new fruit
 fruits.append('Banana')
 print(f'the new fruit added is:{fruits[3]}')
