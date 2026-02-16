@@ -1,7 +1,5 @@
 #collection = single variable used to store multiple values
 # list = [] ordered and changeable ,duplicate ok,not resizeable
-# tuple = () ordered and unchangeable, duplicates ok, faster
-
 fruits = ['Apple','Orange', 'Banana']
 #print(fruits)
 print(f"we have {len(fruits)} fruits ",end=' ')
