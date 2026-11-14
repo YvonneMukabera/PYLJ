@@ -72,3 +72,19 @@ for n in list4:
         greater_than_15.append(n)
 print("Total is:",total)
 print("Number of numbers greater than 15 are:",len(greater_than_15))
+#lesson 5 function
+def greet(name):
+    print("Hi! am just functioning",name)
+greet("Alice")
+# a fununction that return something
+def cal_total(numbers):
+    total=0
+    for n in numbers:
+        total+=n
+    return total
+numbers=[45, 70, 32, 85, 60]
+result=cal_total(numbers)
+average= result/len(numbers)
+print("Average is:",average)
+
+print("Total is:", result)
