@@ -88,3 +88,28 @@ average= result/len(numbers)
 print("Average is:",average)
 
 print("Total is:", result)
+#lesson 5 practice
+marks = [45, 70, 32, 85, 60, 28, 90, 50]
+def calculate_total(marks):
+    total=0
+    for m in marks:
+        total+=m
+    return total
+
+
+def calculate_average(marks):
+    total=calculate_total(marks)
+    average=total/len(marks)
+    return average
+
+
+def count_passed(marks):
+    passed_std=[]
+    for m in marks:
+        if m>=50:
+            passed_std.append(m)
+    return len(passed_std)
+
+print("Total marks is:",calculate_total(marks))
+print("Average marks is:",calculate_average(marks))
+print("Number of students who passed is:",count_passed(marks))
